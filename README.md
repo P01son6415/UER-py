@@ -305,27 +305,11 @@ python3 inference/run_cmrc_infer.py --load_model_path models/cmrc_model.bin --vo
 ## Datasets
 This project includes a range of Chinese datasets: XNLI, LCQMC, MSRA-NER, ChnSentiCorp, and NLPCC-DBQA are from [Baidu ERNIE](https://github.com/PaddlePaddle/LARK/tree/develop/ERNIE); Douban book review is from [BNU](https://embedding.github.io/evaluation/); Online shopping review is annotated by ourself; THUCNews is from [text-classification-cnn-rnn project](https://github.com/gaussic/text-classification-cnn-rnn); Sina Weibo review is from [ChineseNlpCorpus project](https://github.com/SophonPlus/ChineseNlpCorpus); CMRC2018 is from [HIT CMRC2018 project](https://github.com/ymcui/cmrc2018) and C3 is from [CLUE](https://www.cluebenchmarks.com/). More Large-scale datasets can be found in [glyph's github project](https://github.com/zhangxiangxiao/glyph).
 
-<table>
-<tr align="center"><td> Dataset <td> Link
-<tr align="center"><td> ChnSentiCorp <td> in the project
-<tr align="center"><td> Douban book review <td> in the project
-<tr align="center"><td> CMRC2018 <td> in the project
-<tr align="center"><td> C3 <td> in the project
-<tr align="center"><td> Online shopping review <td> https://share.weiyun.com/5xxYiig
-<tr align="center"><td> LCQMC <td> https://share.weiyun.com/5Fmf2SZ
-<tr align="center"><td> XNLI <td> https://share.weiyun.com/5hQUfx8
-<tr align="center"><td> MSRA-NER <td> in the project
-<tr align="center"><td> NLPCC-DBQA <td> https://share.weiyun.com/5HJMbih
-<tr align="center"><td> Sina Weibo <td> https://share.weiyun.com/5lEsv0w
-<tr align="center"><td> THUCNews <td> https://share.weiyun.com/5jPpgBr
-</table>
+See [Datasets](https://github.com/P01son6415/UER-py/wiki/Datasets)
 
-<br/>
 
 ## Modelzoo
-With the help of UER, we pre-trained models with different corpora, encoders, and targets. All pre-trained models can be loaded by UER directly. More pre-trained models will be released in the near future. Unless otherwise noted, Chinese pre-trained models use *models/google_zh_vocab.txt* as vocabulary, which is used in original BERT project. *models/bert_base_config.json* is used as configuration file in default. Commonly-used vocabulary and configuration files are included in *models* folder and users do not need to download them.
-
-More detailed can be found in [Modelzoo](https://github.com/P01son6415/UER-py/wiki/Modelzoo).
+With the help of UER, we pre-trained models with different corpora, encoders, and targets. All pre-trained models can be loaded by UER directly. More pre-trained models will be released in the near future. Detailed introduction of pre-trained models and download links can be found in [Modelzoo](https://github.com/P01son6415/UER-py/wiki/Modelzoo). 
 
 ## Instructions
 ### UER-py's framework
@@ -395,7 +379,6 @@ This section firstly summarizes tool scripts and their functions, and then provi
 </table>
 
 See examples for how to use the scripts: [Scripts](https://github.com/P01son6415/UER-py/wiki/Scripts)
-
 
 ## Experiments
 

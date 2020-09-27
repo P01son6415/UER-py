@@ -30,7 +30,7 @@ Table of Contents
   * [Datasets](#datasets)
   * [Modelzoo](#modelzoo)
   * [Instructions](#instructions)
-  * [Competitionsolutions](#competitionsolutions)
+  * [Competition solutions](#competition-solutions)
   * [Scripts](#scripts)
   * [Experiments](#experiments)
 
@@ -346,7 +346,7 @@ The code is well-organized. Users can use and extend upon it with little efforts
 
 Examples of pre-training and fine-tuning on downstream tasks can be found in [Instructions](https://github.com/P01son6415/UER-py/wiki/Instructions), which help users quickly implement models such as BERT, ALBERT, RoBERTa and GPT also provide examples of a variety of downstream tasks.
 
-## Competitionsolutions
+## Competition solutions
 
 UER-py has been used in winning solutions of many NLP competitions. In this section, we provide some examples of using UER-py to achieve SOTA results on NLP competitions and learderboards. See [Competition solutions](https://github.com/P01son6415/UER-py/wiki/Competition-solutions).
 
